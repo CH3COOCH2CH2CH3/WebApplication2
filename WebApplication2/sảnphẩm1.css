@@ -1,0 +1,13 @@
+﻿.product-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    .product-link:hover + .product-menu,
+    .product-menu:hover {
+        display: block;
+    }

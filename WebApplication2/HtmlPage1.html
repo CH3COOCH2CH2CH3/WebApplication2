@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> ĐỒNG HỒ ĐEO TAY LÂU ĐỜI </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: snow;
+        }
+
+        .header {
+            background-color: darkgray;
+            color: black;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+            .header input[type="text"] {
+                width: 50%;
+                padding: 10px;
+                margin-top: 10px;
+                border: none;
+                border-radius: 5px;
+            }
+
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+
+            .nav a {
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+            }
+
+                .nav a:hover {
+                    background-color: #575757;
+                }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .sidebar {
+            width: 20%;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-right: 20px;
+        }
+
+            .sidebar h3 {
+                margin-top: 0;
+            }
+
+        .product-list {
+            width: 75%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 15px;
+            width: calc(33.333% - 40px);
+            box-sizing: border-box;
+        }
+
+            .product img {
+                max-width: 100%;
+                height: auto;
+            }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1> THE WORLD OF THE WATCH   </h1>
+        <h5> (THƯƠNG HIỆU ĐỒNG HỒ TỪ 1998)</h5>
+        <input type="text" placeholder="Tìm kiếm sản phẩm...">
+
+    </div>
+    <div class="nav">
+        <a href="#">Trang Chủ</a>
+
+
+
+        <div class="menu">
+            <a href="#" class="menu-link"> Danh Sách </a>
+            <div class=" dropdown-content">
+                <li><a href="#"> Đồng hồ nam</a></li>
+                <li><a href="#">Đồng hồ nữ</a></li>
+                <li><a href="#">Đồng hồ cơ</a></li>
+                <li><a href="#">Đồng hồ pin</a></li>
+            </div>
+        </div>
+        <link rel="stylesheet" href="CS/CSS/StyleSheet1.css">
+        <a href="#">Liên Hệ</a>
+        <a href="#">Giỏ Hàng</a>
+        <a href="#"> Đăng Nhập/Đăng Ký</a>
+        <a href="#"> Chăm Sóc Khách Hàng</a>
+    </div>
+    
+        <h1 style="color:aquamarine;"> NGÀY 10 LƯƠNG VỀ, HÀNG MỚI LUÔN KỀ </h1>
+        <div class="product-list">
+            <div class="product">
+                <a href="HtmlPage2.html" style="text-decoration:none;">
+                 <img src="image/Đồng Hồ Omega - Nam 4641.30.32 Size 41mm.jpg" alt="Sản phẩm 1">  
+                <h2> Đồng Hồ Omega - Nam 4641.30.32 Size 41mm</h2>
+                    </a>
+                <p>Giá: 100,000 VND</p>
+            </div>
+            <div class="product">
+                <a href="HtmlPage3.html"style="text-decoration:none;">
+                <img src="image/Đồng Hồ Omega - Nam 231.53.42.21.06.001 Size 41.5mm.jpg" alt="Sản phẩm 2">
+                <h2>Đồng Hồ Omega - Nam 231.53.42 Size 41.5mm</h2> </a>
+                <p>Giá: 200,000 VND</p>
+            </div>
+            <div class="product">
+                <a href="HtmlPage4.html" style="text-decoration:none;">
+                <img src="image/Đồng Hồ Hublot - Nam 550.NS.1800.RX.ORL19 Size 40mm.jpg" alt="Sản phẩm 3">
+                <h2>Đồng Hồ Hublot - Nam ORL19 Size 40mm</h2>
+                <p>Giá: 300,000 VND</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>© 2024 Trang Bán Hàng</p>
+    </div>
+</body>
+</html>
